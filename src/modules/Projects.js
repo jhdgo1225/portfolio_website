@@ -1,9 +1,11 @@
 import React from "react";
 
-class Projects extends React.Component {
-    render() {
-        return;
-    }
-}
+const Projects = () => {
+    return (
+        <section id="projects">
+            <h1>Projects</h1>
+        </section>
+    );
+};
 
 export default Projects;

@@ -1,0 +1,37 @@
+.navbar {
+    position: fixed;
+    background-color: #f7f7f7;
+    top: 0px;
+    width: 100%;
+    padding: 20px;
+}
+
+.navbar_management {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_management > h1 {
+    width: 100%;
+    letter-spacing: 0.5px;
+}
+
+.navbar_list {
+    width: 100%;
+}
+
+.navbar_management ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar_item {
+    margin-left: 18px;
+    font-size: 18px;
+    list-style-type: none;
+    letter-spacing: 0.2px;
+}
+
+.navbtn {
+    display: none;
+}

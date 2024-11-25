@@ -28,7 +28,7 @@ class ButtonSet extends React.Component {
 class StartScreen extends React.Component {
     render() {
         return (
-            <header className={styles.startScreen}>
+            <header id="start" className={styles.startScreen}>
                 <h1 className={styles.title}>Portfolio Website</h1>
                 <ButtonSet />
                 <ScrollMessage />
