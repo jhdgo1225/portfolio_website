@@ -6,17 +6,18 @@ const About = () => {
         <section id="about">
             <h1>About</h1>
             <div className={styles.about}>
-                <span>안녕하세요. 프론트엔드 개발자 박종호입니다.</span>
-                <p>
-                    <span>
-                        저는 웹사이트의 디자인과 사용자 경험을 직접 설계하는
-                        것을 좋아합니다.
+                <span className={styles.introduce}>
+                    안녕하세요. 프론트엔드 개발자 박종호입니다.
+                </span>
+                <p className={styles.paragraph}>
+                    <span className={styles.paragraph_title}>
+                        저는 웹사이트의 UI/UX를 직접 설계하는 것을 좋아합니다.
                     </span>
                     지금까지 만든 프로젝트 모두 제 스스로 디자인 설계서, UI/UX
                     설계서를 작성하고 이를 기반으로 웹사이트를 구현했습니다.
                 </p>
-                <p>
-                    <span>
+                <p className={styles.paragraph}>
+                    <span className={styles.paragraph_title}>
                         저는 웹서비스 개발과 함께 웹 기술도 직접 구현하면서
                         공부해봤습니다.
                     </span>
@@ -25,8 +26,8 @@ const About = () => {
                     공부했습니다. 웹서비스에 적용되는 툴이 웹브라우저에서 어떻게
                     동작하는지 항상 호기심을 가지고 있습니다.
                 </p>
-                <p>
-                    <span>
+                <p className={styles.paragraph}>
+                    <span className={styles.paragraph_title}>
                         저는 사용자의 생산성 향상을 위한 AI 기능도
                         만들어봤습니다.
                     </span>

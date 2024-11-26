@@ -1,7 +1,40 @@
+@media (max-width: 500px) {
+    /* 모바일 */
+    .mainScreen {
+        padding: 0px 60px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+    /* 모바일 */
+    .mainScreen {
+        padding: 0px 80px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* 태블릿 세로 */
+    .mainScreen {
+        padding: 0px 80px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* 태블릿 가로 */
+    .mainScreen {
+        padding: 0px 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* 데스크탑 일반 */
+    .mainScreen {
+        padding: 0px 50px;
+    }
+}
+
 .mainScreen {
     width: 100vw;
-    /* position: absolute; */
-    padding: 0px 100px;
     padding-top: 100px;
 }
 
