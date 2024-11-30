@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../css/MainScreen.module.css";
-import Nav from "../components/Nav";
+import Nav from "../components/Navbar";
 import Profile from "../modules/Profile";
 import About from "../modules/About";
 import Projects from "../modules/Projects";

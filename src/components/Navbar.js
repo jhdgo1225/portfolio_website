@@ -5,7 +5,7 @@ const Nav = () => {
     return (
         <nav className={styles.navbar}>
             <div className={styles.navbar_management}>
-                <h1>Portfolio Website</h1>
+                <h1>Portfolio Websit</h1>
                 <button className={styles.navbtn}>
                     <span></span>
                 </button>
