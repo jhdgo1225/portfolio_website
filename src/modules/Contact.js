@@ -5,9 +5,9 @@ const Contact = () => {
     return (
         <section id="contact">
             <h1>Contact</h1>
-            <form className={styles.contact_form}>
+            <form method="post" className={styles.contact_form}>
                 <p>
-                    <label className={styles.label} for="name">
+                    <label className={styles.label} htmlFor="name">
                         이름{" "}
                     </label>
                     <input
@@ -17,7 +17,7 @@ const Contact = () => {
                         className={styles.form_input}></input>
                 </p>
                 <p>
-                    <label className={styles.label} for="phone">
+                    <label className={styles.label} htmlFor="phone">
                         Phone{" "}
                     </label>
                     <input
@@ -27,7 +27,7 @@ const Contact = () => {
                         className={styles.form_input}></input>
                 </p>
                 <p>
-                    <label className={styles.label} for="email">
+                    <label className={styles.label} htmlFor="email">
                         E-mail{" "}
                     </label>
                     <input

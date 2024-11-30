@@ -18,6 +18,9 @@
 }
 
 .profile_links > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
     border-radius: 5px;
     width: 100%;
@@ -25,6 +28,16 @@
     font-size: 18px;
 }
 
+.profile_links > button > img {
+    margin-right: 5px;
+}
+
+.github {
+    filter: opacity(1) drop-shadow(0 0 0 #ffffff);
+}
+
 .profile_links > button:first-child {
     margin-bottom: 10px;
+    background-color: #1f2328;
+    color: white;
 }

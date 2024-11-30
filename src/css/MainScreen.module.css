@@ -1,3 +1,9 @@
+.mainScreen > section > h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #1a512c;
+}
+
 @media (max-width: 500px) {
     /* 모바일 */
     .mainScreen {
@@ -17,6 +23,9 @@
     .mainScreen {
         padding: 0px 80px;
     }
+    .mainScreen > section > h1 {
+        font-size: 36px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -24,12 +33,18 @@
     .mainScreen {
         padding: 0px 50px;
     }
+    .mainScreen > section > h1 {
+        font-size: 36px;
+    }
 }
 
 @media (min-width: 1200px) {
     /* 데스크탑 일반 */
     .mainScreen {
         padding: 0px 50px;
+    }
+    .mainScreen > section > h1 {
+        font-size: 36px;
     }
 }
 
@@ -44,9 +59,4 @@
     align-items: center;
     margin-bottom: 100px;
     scroll-margin-top: 100px;
-}
-
-.mainScreen > section > h1 {
-    font-size: 30px;
-    margin-bottom: 30px;
 }

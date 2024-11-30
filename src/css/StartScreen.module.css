@@ -29,6 +29,9 @@
 }
 
 .scrollMessage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: fixed;
     bottom: 80px;
 }
