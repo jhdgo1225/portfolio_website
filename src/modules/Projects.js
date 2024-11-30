@@ -32,11 +32,9 @@ const Projects = () => {
     const [location, moveTo] = React.useState(0);
     const left = () => {
         moveTo((cur) => (cur - 1 < 0 ? name.length - 1 : cur - 1));
-        console.log(location);
     };
     const right = () => {
         moveTo((cur) => (cur + 1) % name.length);
-        console.log(location);
     };
     return (
         <section id="projects">
