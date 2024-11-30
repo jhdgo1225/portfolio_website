@@ -18,7 +18,6 @@ const Profile = () => {
                     <div className={styles.profile_links}>
                         <button>
                             <img
-                                className={styles.github}
                                 src={github_img}
                                 alt="GitHub"
                                 width="18"

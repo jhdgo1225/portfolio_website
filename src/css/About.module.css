@@ -54,7 +54,7 @@
 @media (min-width: 1200px) {
     /* 데스크탑 일반 */
     .about {
-        padding: 0px 250px;
+        width: 960px;
     }
     .introduce {
         font-size: 24px;

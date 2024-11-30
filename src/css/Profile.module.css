@@ -32,10 +32,6 @@
     margin-right: 5px;
 }
 
-.github {
-    filter: opacity(1) drop-shadow(0 0 0 #ffffff);
-}
-
 .profile_links > button:first-child {
     margin-bottom: 10px;
     background-color: #1f2328;
