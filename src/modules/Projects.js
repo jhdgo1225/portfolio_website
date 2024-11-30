@@ -25,6 +25,10 @@ const Projects = () => {
         "HTML, CSS, JavaScript, Python, Django",
         "C++, HTML, CSS, JavaScript, Python, PHP",
     ];
+    const url = [
+        "https://github.com/jhdgo1225/startup-project",
+        "https://github.com/jhdgo1225/born-to-code/tree/master/webserv",
+    ];
     const [location, moveTo] = React.useState(0);
     const left = () => {
         moveTo((cur) => (cur - 1 < 0 ? name.length - 1 : cur - 1));
@@ -79,7 +83,7 @@ const Projects = () => {
                         <span className={styles.project_section}>
                             GitHub 링크
                         </span>
-                        : {}
+                        : <a href={url[location]}>{url[location]}</a>
                     </span>
                 </div>
                 <button className={styles.move_btn} onClick={right}>
